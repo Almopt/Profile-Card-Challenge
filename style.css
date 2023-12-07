@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+.left-circle img{
+    position: absolute;
+    top: -650px;
+    left: -350px;
+    opacity: 0.8;
+    z-index: -1;
+    width: 1300px;
+}
+
+.card-container {
+    position: relative;
+    background-color: white;
+    border-radius: 12px;
+    height: auto;
+    width: 400px;
+    margin: 275px auto 0px;
+    z-index: 1;
+}
+
+.banner img{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.avatar-profile {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: white;
+    border: 5px solid white;
+    background-image: url(./images/image-victor.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100px;
+}
+
+.profile-info {
+    margin-top: 75px;
+}
+
+.basic-info {
+    text-align: center;
+}
+
+.basic-info p {
+    margin-top: 10px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.grey-special {
+    color: hsl(0, 0%, 59%);
+}
+
+.grey {
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+}
+
+hr {
+    border-top: 0.5px solid #bbb;
+    margin: 25px 0 25px;
+}
+
+.profile-social-media{
+    text-align: center;
+    padding: 0 0 25px;
+}
+
+.social-media {
+    display: inline-block;
+    margin: 0px 30px;
+} 
+
+.block {
+    display: block;
+}
+
+.right-circle img{
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    opacity: 0.8;
+    z-index: -1;
+    width: 1300px;
+}
+
+.attribution { 
+    margin-top: 10px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
